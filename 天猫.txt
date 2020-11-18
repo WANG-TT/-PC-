@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			body{
+				background-color: palevioletred;
+				height: 400px;
+			}
+			.shoulan{
+				width: 1520px;
+				height: 20px;
+				background-color: antiquewhite;
+			}
+			.shoulan a{
+				font-size: 13px;
+				text-decoration: none;
+				color: #4C4C4C;
+				padding: 2px 4px 2px 5px;
+			}
+			.shoulan a:hover{
+				color: orange;
+			}
+			.img{
+				background-image: url(../img/双1.jpg);
+				width: 1520px;
+				height: 280px;
+				float:left ;
+				background-position: center ;
+			}
+			.left{
+				float: left;
+				width: 170px;s;
+				margin: 10px 0px;
+				/*background-color: rgba(0,0,0,.3);*/
+			}
+			.left a{
+				width:170px;
+				height: 40px;
+				display: block;
+				padding: 6px 3px;
+		        background-color: rgba(0,0,0,0.3);
+		        text-decoration: none;
+		        color: white;
+		      /*  padding: 0 30px;*/
+		        line-height: 40px;
+		        font-size: 14px;
+		        }
+		     .celan .letf a:hover{
+		         background-color: coral;
+		    }
+			.right{
+				float: left;
+				width: 1300px;
+				height: 900px;
+				/*background-color: brown;*/
+				margin: 10px auto;
+			}
+			li{
+				list-style: none;
+			}
+			.box li{
+				float: left;
+				margin-right: 25px ;
+				width:240px;
+				height:285px;
+				background-color: antiquewhite;
+				margin-top: 30px;
+			}
+			.first{
+				margin-left: 140px;
+			}
+			.last{
+				margin-right: 0px;
+			}
+			.box img{
+		 	width: 100%;
+		 	height: 60%;
+		 	}
+		 	.box li:hover{
+			box-shadow: 10px 10px 10px 10px rgba(0,0,0,.3);
+			}
+	       
+	       .first h3{
+	       	color: orange;
+	       	padding: 0 45px;
+	       	margin:10px auto;
+	       }
+		   /*h3{
+		   	font-size: 14px;
+		 	color: orange;
+		 	/*因为这个段落没有witdh属性，所以不会撑开盒子*/
+		 	/*横向不想撑开盒子用padding 竖向不想撑开盒子用margin*/
+		 	/*padding: 0px 28px;
+		 	margin-top: 20px;
+		 }*/
+		 .first p{
+		 	font-size: 18px;
+		 	font-family: "微软雅黑";
+		 	color: black;
+            padding: 0 80px;
+	       	margin:20px auto;
+		 	}
+		 .second h3{
+	       	color: orange;
+	       	padding: 0 38px;
+	       	margin:10px auto;
+	       }
+	     .second p{
+		 	font-size: 18px;
+		 	font-family: "微软雅黑";
+		 	color: black;
+            padding: 0 80px;
+	       	margin:20px auto;
+		 	} 
+		 .third h3{
+	       	color: orange;
+	       	padding: 0 75px;
+	       	margin:10px auto;
+	       }
+	     .third p{
+		 	font-size: 18px;
+		 	font-family: "微软雅黑";
+		 	color: black;
+            padding: 0 80px;
+	       	margin:20px auto;
+		 	} 
+		 .last h3{
+	       	color: orange;
+	       	padding: 0 75px;
+	       	margin:10px auto;
+	       }
+	     .last p{
+		 	font-size: 18px;
+		 	font-family: "微软雅黑";
+		 	color: black;
+            padding: 0 80px;
+	       	margin:20px auto;
+		 	} 
+		 .first1{
+				margin-left: 140px;
+			}
+		.last{
+				margin-right: 0px;
+			}
+		 .first1 h3{
+	       	color: orange;
+	       	padding: 0 78px;
+	       	margin:10px auto;
+	       }
+		 .first1 p{
+		 	font-size: 18px;
+		 	font-family: "微软雅黑";
+		 	color: black;
+            padding: 0 80px;
+	       	margin:20px auto;
+		 	}
+		 .second1 h3{
+	       	color: orange;
+	       	padding: 0 69px;
+	       	margin:10px auto;
+	       }
+	     .second1 p{
+		 	font-size: 18px;
+		 	font-family: "微软雅黑";
+		 	color: black;
+            padding: 0 80px;
+	       	margin:20px auto;
+		 	} 
+		 .third1 h3{
+	       	color: orange;
+	       	padding: 0 65px;
+	       	margin:10px auto;
+	       }
+	     .third1 p{
+		 	font-size: 18px;
+		 	font-family: "微软雅黑";
+		 	color: black;
+            padding: 0 75px;
+	       	margin:20px auto;
+		 	} 
+	      .last1 h3{
+	       	color: orange;
+	       	padding: 0 75px;
+	       	margin:10px auto;
+	       }
+	     .last1 p{
+		 	font-size: 18px;
+		 	font-family: "微软雅黑";
+		 	color: black;
+            padding: 0 80px;
+	       	margin:20px auto;
+		 	} 
+		</style>
+	</head>
+	<body>
+		<div class="shoulan">
+          <span><a href="#">天猫首页</span>
+          	<span><a href="#">请登录</span>
+          		<span><a href="#">免费注册</span>	
+		</div>
+		<div class="img"></div>
+		<div class="celan">
+			<div class="left">
+				<a href="#">服饰 </a>
+		        <a href="#">生活用品</a>
+		        <a href="#">电子产品</a>
+                <a href="#">出行 穿戴</a>
+                <a href="#">食品生鲜</a>
+                <a href="#">美妆洗护</a>
+		        <a href="#">爱车达人</a>
+                <a href="#">医药保健</a>
+                <a href="#">天猫超市</a>
+		        <a href="#">家居建材</a>
+		        <a href="#">全球尖货</a>
+		        <a href="#">苏宁精选</a>
+			</div>
+			<div class="right">
+				<ul class="box">
+					<li class="first">
+						<a href="#"><img src="../img/生鲜.webp" /></a>
+						<h3>惊爆价低至9元9</h3>
+						<p>淘宝生鲜</p>
+					</li>
+					<li class="second">
+						<a  href="#"><img src="../img/家居百货.webp"/></a>
+						<h3>满199元立减100元</h3>
+						<p>家居百货</p>
+					</li>
+					<li class="third">
+						<a href="#"><img src="../img/百亿补贴.webp"/></a>
+						<h3>一元秒杀</h3>
+						<p>百亿补贴</p>
+					</li>
+					<li class="last">
+						<a href="#"><img src="../img/衣服.webp"/></a>
+						<h3>不止五折</h3>
+						<p>品质男装</p>
+					</li>
+					<li class="first1">
+						<a href="#"><img src="../img/户外装备.webp"/></a>
+						<h3>品牌闪价</h3>
+						<p>户外装备</p>
+					</li>
+					<li class="second1">
+						<a  href="#"><img src="../img/食品.webp"/></a>
+						<h3>吃货嘉年华</h3>
+						<p>食品饮料</p>
+					</li>
+					<li class="third1">
+						<a href="#"><img src="../img/超市.webp"/></a>
+						<h3>囤生活好物</h3>
+						<p>淘宝超市</p>
+					</li>
+					<li class="last1">
+						<a href="#"><img src="../img/电脑.webp"></a>
+						<h3>更多优惠</h3>
+						<p>电脑办公</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
